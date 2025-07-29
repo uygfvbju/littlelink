@@ -1,0 +1,57 @@
+/* Brand Button Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,button {
+  color:var(--button-text,#000000);
+  background-color:var(--button-background,transparent);
+	border:var(--button-border,none);
+	transition:filter 0.2s ease,transform 0.2s ease;
+}
+
+/* Global Button Hover Effect
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button:hover,button:hover {
+	filter:brightness(90%);
+	transform:translateY(-1px);
+}
+
+/* Button Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.icon {
+	filter:var(--icon-filter,none);
+}
+
+/* Brand-Specific Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Default */
+.button.button-email {
+	--button-text:#ffffff;
+	--button-background:#6d4aff;
+	--button-border:1px solid #333;
+}
+/* CelebFakes */
+.button-celebfakes {
+	--button-text:#ffffff;
+	--button-background:#000;
+	--button-border:1px solid #333;
+}
+/* Discord */
+.button-discord {
+	--button-text:#ffffff;
+	--button-background:#5865F2;
+	--button-border:1px solid #333;
+}
+
+/* Dfans */
+.button-dfans {
+	--button-text:#ffffff;
+	--button-background:#000;
+	--button-border:1px solid #333;
+}
+
+/* Telegram */
+.button-telegram {
+	--button-text:#ffffff;
+	--button-background:#3faee8;
+	--button-border:1px solid #333;
+}
